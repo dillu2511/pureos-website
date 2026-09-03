@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PURE OS - The AI-Powered Desktop</title>
+    <meta name="description" content="Experience the future of computing with PURE OS. Built-in AI, stunning Glassmorphism UI, and peak performance.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="animated-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <nav class="navbar glass-effect">
+        <div class="nav-content">
+            <div class="logo">
+                <i class="fa-solid fa-microchip"></i> PURE OS
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#download" class="nav-btn">Get PURE OS</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content fade-in">
+            <h1 class="gradient-text">Experience the Future.</h1>
+            <p class="subtitle">An intelligent, lightning-fast operating system with built-in AI and a stunning glassmorphism interface.</p>
+            <div class="hero-actions">
+                <a href="#download" class="btn btn-primary"><i class="fa-solid fa-download"></i> Download v1.0 Alpha</a>
+                <a href="#features" class="btn btn-secondary">Explore Features <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="hero-image-container glass-effect float-anim">
+                <img src="assets/dashboard-preview.png" alt="PURE OS Desktop Preview" class="hero-image" id="preview-img" onerror="this.src='https://via.placeholder.com/1200x700/10141e/ffffff?text=PURE+OS+Desktop'">
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="section-header fade-in">
+            <h2>Why Choose PURE OS?</h2>
+            <p>Built from the ground up for the modern user.</p>
+        </div>
+        
+        <div class="feature-grid">
+            <div class="feature-card glass-effect fade-in">
+                <div class="feature-icon"><i class="fa-solid fa-robot"></i></div>
+                <h3>In-built AI</h3>
+                <p>Powered by LLaMA 3. Run powerful AI models directly on your local machine without needing the internet. Total privacy, total control.</p>
+            </div>
+            
+            <div class="feature-card glass-effect fade-in">
+                <div class="feature-icon"><i class="fa-solid fa-gauge-high"></i></div>
+                <h3>Blazing Fast</h3>
+                <p>Optimized for peak performance. PURE OS uses less RAM and boots instantly, leaving more resources for your heavy workflows.</p>
+            </div>
+            
+            <div class="feature-card glass-effect fade-in">
+                <div class="feature-icon"><i class="fa-solid fa-layer-group"></i></div>
+                <h3>Glassmorphism UI</h3>
+                <p>A breathtaking user interface. Enjoy translucent windows, smooth animations, and a modern design that feels like the future.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="download-section glass-effect fade-in">
+        <div class="download-content">
+            <h2>Ready to Upgrade?</h2>
+            <p>Download the PURE OS ISO and install it using Rufus or BalenaEtcher.</p>
+            
+            <div class="download-box">
+                <div class="version-info">
+                    <strong>Version:</strong> v1.0 Alpha (Build 55)<br>
+                    <strong>Size:</strong> 3.8 GB<br>
+                    <strong>Architecture:</strong> 64-bit AMD/Intel
+                </div>
+                <a href="https://github.com/dillu2511/pure-os/releases/latest" target="_blank" class="btn btn-primary pulse-anim"><i class="fa-brands fa-github"></i> Download from GitHub</a>
+            </div>
+            
+            <div class="installation-guide">
+                <h3>Quick Installation Guide</h3>
+                <ol>
+                    <li>Download the ISO file above.</li>
+                    <li>Download <a href="https://rufus.ie/" target="_blank">Rufus</a> (Windows) or <a href="https://balena.io/etcher/" target="_blank">BalenaEtcher</a>.</li>
+                    <li>Flash the ISO to an empty USB drive (minimum 8GB).</li>
+                    <li>Restart your PC, boot from the USB, and click "Install PURE OS".</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo"><i class="fa-solid fa-microchip"></i> PURE OS</div>
+            <p>&copy; 2026 PURE OS. Created by Dillu.</p>
+            <div class="social-links">
+                <a href="https://github.com/dillu2511/pure-os"><i class="fa-brands fa-github"></i> Source Code</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
